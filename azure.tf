@@ -16,7 +16,6 @@ resource "azurerm_storage_account" "dotnet-conf-2023-azure-sa" {
   account_replication_type = "GRS"
   tags = merge(var.default_tags,
     {
-      cloudprovider = "Azure"
       event         = ".NET Conference 2023"
       location      = "Cape Town"
   })
