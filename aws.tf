@@ -13,5 +13,6 @@ resource "aws_s3_bucket" "dotnet-conf-2023-aws-s3-bucket" {
       cloudProvider = "AWS"
       event         = ".NET Conference 2023"
       location      = "Johannesburg"
+      blahblah = "pew pew"
   })
 }
